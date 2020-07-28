@@ -1,0 +1,41 @@
+/* ------------- レスポンシブ対応 767pxまで  -------------- */
+@media screen and (max-width: 767px) {
+    .wrapper {
+        width: 250px;
+    }
+
+    .header {
+        height: 250px;
+    }
+
+    .right {
+        width: 100px;
+    }
+
+    .footer {
+        height: 250px;
+    }
+}
+
+/* ------------- レスポンシブ対応 479pxまで -------------- */
+@media screen and (max-width: 479px) {
+    .wrapper {
+        width: 150px;
+    }
+
+    .header {
+        width: 150px;
+    }
+
+    .contents {
+        float: none;
+    }
+
+    .right {
+        width: 150px;
+    }
+
+    .footer {
+        width: 150px;
+    }
+}
