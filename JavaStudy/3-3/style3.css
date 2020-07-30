@@ -1,0 +1,77 @@
+/* ------------- リセットCSS  -------------- */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------- body内  -------------- */
+.wrapper {
+    max-width: 400px;
+    width: 400px; 
+    height: 100px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    background-color: #141f40;
+    position: relative;
+}
+
+.header-inner {
+    width: 160px;
+    height: 60px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header-inner-item {
+    height: 40px;
+    width: 40px;
+    background-color: #a9004b;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.header-inner-item:first-child {
+    margin-left: 10px;
+}
+
+.left {
+    height: 250px;
+    width: 150px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+.right {
+    width: 250px;
+    background-color: #8c2727;
+    float: right;
+}
+
+.right-inner {
+    margin: 40px;
+}
+
+.right-inner-item {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid #ffffff;
+    margin-bottom: 10px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+}
+
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
