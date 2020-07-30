@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 350px;
+    width: 350px;
+}
+
+.box1 {
+    height: 100px;
+    width: 100%;
+}
+.box1-1 {
+    height: 100px;
+    width: 150px;
+    background-color: #FFFF66;
+}
+.box1-2 {
+    height: 100px;
+    width: 200px;
+    background-color: #666666;
+}
+
+.box2 {
+    height: 150px;
+    width: 100%;
+}
+.box2-1 {
+    height: 150px;
+    width: 150px;
+    background-color: #FF3333;
+}
+.box2-2 {
+    height: 150px;
+    width: 100px;
+    background-color: #3366FF;
+}
+.box2-3 {
+    height: 150px;
+    width: 100px;
+    background-color: #669933;
+}
+
+.box3 {
+    height: 100px;
+    width: 100%;
+}
+.box3-1 {
+    height: 100px;
+    width: 150px;
+    background-color: #FF9966;
+}
+.box3-2 {
+    height: 100px;
+    width: 100px;
+    background-color: #FFFFCC;
+}
+.box3-3 {
+    height: 100px;
+    width: 100px;
+    background-color: #330066;
+}
+
+.box1 div, .box2 div, .box3 div {
+    float: left;
+}
+
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
